@@ -11,7 +11,7 @@
 
 
 
-    <title>PBlog</title>
+    <title>Nguyễn Ngọc Phong - PBlog</title>
     <meta name="HandheldFriendly" content="True" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Styles'n'Scripts -->
@@ -36,19 +36,19 @@
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="Phong Nguyen Blog" />
     <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="/" />
+    <link rel="canonical" href="/author/Phong/" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="PBlog" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="PBlog" />
+    <meta property="og:title" content="Nguyễn Ngọc Phong - PBlog" />
     <meta property="og:description" content="Phong Nguyen Blog" />
-    <meta property="og:url" content="/" />
+    <meta property="og:url" content="/author/Phong/" />
     <meta property="og:image" content="/assets/images/blog-cover.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/phongnn998" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="PBlog" />
+    <meta name="twitter:title" content="Nguyễn Ngọc Phong - PBlog" />
     <meta name="twitter:description" content="Phong Nguyen Blog" />
     <meta name="twitter:url" content="/" />
     <meta name="twitter:image" content="/assets/images/blog-cover.jpg" />
@@ -68,7 +68,7 @@
         "name": "PBlog",
         "logo": "/assets/images/blog-icon.png"
     },
-    "url": "/",
+    "url": "/author/Phong/",
     "image": {
         "@type": "ImageObject",
         "url": "/assets/images/blog-cover.jpg",
@@ -77,7 +77,7 @@
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "/"
+        "@id": "/author/Phong/"
     },
     "description": "Phong Nguyen Blog"
 }
@@ -92,31 +92,29 @@
     </script> -->
 
     <meta name="generator" content="Jekyll 3.6.2" />
-    <link rel="alternate" type="application/rss+xml" title="PBlog" href="/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="Author Page" href="/feed.xml" />
 
 
 </head>
-<body class="home-template">
+<body class="author-template">
 
     <div class="site-wrapper">
         <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
-        <!-- < default -->
-<!-- The tag above means: insert everything in this file
-into the {body} of the default.hbs template -->
+        <!-- < default}} -->
+<!-- The tag above means - insert everything in this file into the {body} of the default.hbs template -->
 
-<!-- The big featured header, it uses blog cover image as a BG if available -->
-<header class="site-header outer " style="background-image:  url(/assets/images/blog-cover.jpg) ">
-    <div class="inner">
-        <div class="site-header-content">
-            <h1 class="site-title">
-                
-                    <img class="site-logo" src="/assets/images/blog-icon.png" alt="PBlog"/>
-                
-            </h1>
-            <h2 class="site-description">Phong Nguyen Blog</h2>
-        </div>
-        <nav class="site-nav">
+<!-- #author  -->
+<!-- Everything inside the #author tags pulls data from the author -->
+
+    
+    <header class="site-header outer no-cover">
+        <div class="inner">
+            <nav class="site-nav">
     <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="/"><img src="/assets/images/blog-icon.png" alt="PBlog" /></a>
+            
         
         
             <ul class="nav" role="menu">
@@ -144,8 +142,31 @@ into the {body} of the default.hbs template -->
     </div>
 </nav>
 
-    </div>
-</header>
+            <div class="site-header-content">
+                
+                    <img class="author-profile-image" src="/assets/images/martin.jpg" alt="Phong" />
+                
+                <h1 class="site-title">Nguyễn Ngọc Phong</h1>
+                
+                <div class="author-meta">
+                    
+                        <div class="author-location">HCMC <span class="bull">&bull;</span></div>
+                    
+                    <div class="author-stats">
+                        1 post <span class="bull">&bull;</span>
+                    </div>
+                    
+                    
+                    
+                    <a class="social-link social-link-rss" href="https://feedly.com/i/subscription/feed//author/Phong/feed.xml" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg>
+</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+<!-- /author -->
 
 <!-- The main content area -->
 <main id="site-main" class="site-main outer" role="main">
@@ -156,7 +177,7 @@ into the {body} of the default.hbs template -->
             
 
 
-    <article class="post-card home-template">
+    <article class="post-card author-template">
         
             <a class="post-card-image-link" href="/welcome">
                 <div class="post-card-image" style="background-image: url(/assets/images/welcome.jpg)"></div>
